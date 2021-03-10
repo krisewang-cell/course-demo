@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    hikari:
+      username: wang
+      password: Wang@0930
+      jdbc-url: jdbc:mysql://localhost:3306/course?useUnicode=true&characterEncoding=utf8
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
